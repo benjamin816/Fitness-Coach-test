@@ -1,5 +1,6 @@
 
-import { LoadType } from '../../types';
+// Use correct path to lib/types for definitions
+import { LoadType } from '../../lib/types';
 
 export interface ExerciseMetadata {
   key: string;

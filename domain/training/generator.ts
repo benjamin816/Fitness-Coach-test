@@ -1,5 +1,6 @@
 
-import { Program, ProgramWorkout, ProgramExercise, UserProfile, GoalMode } from '../../types';
+// Use correct path to lib/types for definitions
+import { Program, ProgramWorkout, ProgramExercise, UserProfile, GoalMode } from '../../lib/types';
 
 export interface GeneratorOptions {
   equipment: { db: boolean; barbell: boolean; bench: boolean; pullup: boolean };

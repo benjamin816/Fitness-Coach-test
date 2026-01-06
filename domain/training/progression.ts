@@ -1,5 +1,6 @@
 
-import { UserProfile, ExerciseEntry, ProgramExercise, LoadType } from '../../types';
+// Use correct path to lib/types for definitions
+import { UserProfile, ExerciseEntry, ProgramExercise, LoadType } from '../../lib/types';
 import { getExerciseMetadata } from './catalog';
 
 export interface ProgressionTarget {

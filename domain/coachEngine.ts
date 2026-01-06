@@ -1,5 +1,6 @@
 
-import { PACING_START_HOUR, PACING_END_HOUR } from '../constants';
+// Use correct path to lib/constants for configuration
+import { PACING_START_HOUR, PACING_END_HOUR } from '../lib/constants';
 
 export interface CoachState {
   currentHour: number;

@@ -1,5 +1,6 @@
 
-import { GoalMode } from '../types';
+// Use correct path to lib/types for definitions
+import { GoalMode } from '../lib/types';
 
 interface AdherenceParams {
   mode: GoalMode;
